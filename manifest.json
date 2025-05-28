@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Link Jumper",
+  "version": "1.0",
+  "description": "Keyboard shortcuts to jump to links on the page",
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Quick Link Jumper"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "activate-links": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Label and activate link shortcuts"
+    }
+  }
+}

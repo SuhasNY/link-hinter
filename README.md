@@ -1,6 +1,6 @@
-# Link Hinter
+# Link-Hinter
 
-**Link Hinter** is a Chrome extension that lets you navigate and open webpage links using just your keyboard. It is built for speed, efficiency, and keyboard-centric browsing — no mouse required.
+**Link-Hinter** is a Chrome extension that lets you navigate and open webpage links using just your keyboard. It is built for speed, efficiency, and keyboard-centric browsing — no mouse required.
 
 ## Key Features
 
@@ -19,7 +19,5 @@
 5. Press `Esc` or type an invalid code to cancel the overlay.
 
 ---
-
-Simple, fast, and fully keyboard-driven.
 
 Made by Shreyas NY and Suhas NY
